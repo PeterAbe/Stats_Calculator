@@ -45,3 +45,8 @@ Btn0.grid(row=0, column=0, sticky=tk.W+tk.E)
 Button_Frame.pack(fill = 'x') 
 # Start the Tkinter event loop
 root.mainloop()
+
+
+Button_Frame = ttk.Frame(root)
+Button_Frame.columnconfigure(0, weight=1)
+Button_Frame.columnconfigure(1, weight=1)
